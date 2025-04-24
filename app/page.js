@@ -12,10 +12,10 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>🎲 Dice Roller</h1>
+      <h1 className={styles.title}>🎲 DICE</h1>
       <div className={styles.dice}>{dice}</div>
       <button onClick={rollDice} className={styles.button}>
-        Roll the Dice
+        Roll it
       </button>
     </div>
   );
